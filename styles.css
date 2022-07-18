@@ -1,0 +1,137 @@
+/*-----title------*/
+
+section#title{
+    background-color:#ff4c68;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+h1#title{
+    font-family: 'Montserrat', sans-serif;
+    font-size:3rem;
+    line-height: 1.5;
+    color:white;
+    text-align: left;
+}
+.container-fluid{
+    padding:3% 14%;
+}
+.navbar-brand{
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+.navbar{
+    font-size:1.3rem;
+    padding-bottom: 4.5rem;
+}
+.nav-item{
+    padding:0 18px;
+}
+.title-image {
+    width:15%;
+    transform:rotate(25deg);
+    position:absolute;
+    z-index: 0;
+    right:20%;
+    
+  }
+  .btuns{
+    margin:5% 3% 5% 0;
+  }
+
+  @media (max-width:990px) {
+    .title-image{
+        position:static;
+        width:50%;
+        transform:none;
+        text-align:center;
+    }
+    h1#title{
+        text-align:center;
+    }
+  }
+
+
+/*-----features----*/
+
+.cont-feature{
+    margin-top: 3rem;
+    text-align: center;
+}
+#features{
+    padding:7% 15%;
+    background-color: white;
+    position: relative;
+}
+.icon{
+    color:#ef8172;
+}
+.icon:hover{
+    color:#ff4c68;
+}
+.feature-text{
+    font-family: 'Montserrat', sans-serif;
+    font-size:1.3rem;
+    line-height: 1.5;
+}
+
+
+/*------testimonials------*/
+
+#testimonials{
+padding:7% 15%;
+background-color: #ef8172;
+text-align: center;
+color:white;
+
+}
+.testi-h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size:2.5rem;
+    line-height: 1.2;
+}
+.testi-img{
+    border-radius: 100%;
+    width:15%;
+    margin:20px;
+}
+
+/*---Press-----*/
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding:3%;
+}
+
+.press-logo{
+    width:13%;
+}
+
+/*------prices------*/
+#pricing{
+    padding:3rem;
+}
+.price-card{
+    width:18rem;
+}
+
+.row{
+    text-align: center;
+}
+
+/*------call to action-----*/
+#cta{
+    background-color: #ef8172;
+    padding:2%;
+    text-align: center;
+}
+
+/*------footer------*/
+#footer{
+    background-color: #ef8172;
+    padding-bottom:5px;
+}
+.footer-p{
+    text-align: center;
+}
