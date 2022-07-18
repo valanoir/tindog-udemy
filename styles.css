@@ -125,6 +125,10 @@ color:white;
     background-color: #ef8172;
     padding:2%;
     text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size:3rem;
+    line-height: 1.2;
+    color:white;
 }
 
 /*------footer------*/
@@ -134,4 +138,5 @@ color:white;
 }
 .footer-p{
     text-align: center;
+    color:white;
 }
